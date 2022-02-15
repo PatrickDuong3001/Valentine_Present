@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinkbackground2"
+    tools:context=".GiftContent">
+
+    <TextView
+        android:id="@+id/tView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:maxLines="500"
+        android:text="Happy 14/02, baby wife!
+        \n
+        \n Hôm nay là kỉ niệm mùa Valentine thứ ba rồi đó, nhanh thật ha. Anh biết khi yêu xa, baby của anh thiệt thòi nhiều thứ nên anh đã làm mọi cách để bù đắp cho baby, để baby đỡ cảm thấy cô đơn. Anh lúc nào cũng muốn baby vui vẻ và ngập tràn yêu thương hết!
+        \n
+        \n Anh hi vọng món quà nhỏ này sẽ làm baby nở một nụ cười hạnh phúc trên môi và sẽ cảm thấy rằng anh thật xa nhưng cũng thật gần. Anh tin rằng tình yêu của mình đã trưởng thành và vững chắc để có thể thách thức mọi giông bão, dù là vô hình hay hữu hình.
+        \nYou are mine, and I am yours!
+        \n
+        \nI love you, as always!
+        \nDương Bảo Phúc"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#DC143C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:src="@drawable/varies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="@+id/tView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/homeicon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

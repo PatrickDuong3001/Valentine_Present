@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.birthdaygift">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_heart_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_heart_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BirthdayGift">
+        <activity android:name=".GiftContent"></activity>
+        <activity android:name=".AboutToOpen" />
+        <activity android:name=".FinalQuizPage" />
+        <activity android:name=".QuizPage4" />
+        <activity android:name=".QuizPage3" />
+        <activity android:name=".QuizPage2" />
+        <activity android:name=".QuizPage1" />
+        <activity android:name=".startPage" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

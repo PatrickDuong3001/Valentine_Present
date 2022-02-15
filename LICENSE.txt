@@ -1,0 +1,4 @@
+- The source code and data files of this Android project are all free to use
+- No license applied
+
+---Creator: Patrick---
